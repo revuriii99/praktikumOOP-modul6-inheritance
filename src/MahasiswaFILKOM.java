@@ -1,4 +1,4 @@
 public class MahasiswaFILKOM {
-    String nim;
-    double ipk;
+    private String nim;
+    private double ipk;
 }

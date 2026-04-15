@@ -1,3 +1,3 @@
 public class Manager {
-    String departemen;
+    private String departemen;
 }

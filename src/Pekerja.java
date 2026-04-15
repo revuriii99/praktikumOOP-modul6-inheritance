@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 public class Pekerja {
-    double gaji;
-    LocalDate tahunMasuk;
-    int jumlahAnak;
+    private double gaji;
+    private LocalDate tahunMasuk;
+    private int jumlahAnak;
 }

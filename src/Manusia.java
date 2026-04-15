@@ -1,5 +1,6 @@
 public class Manusia {
-    String nama;
-    String nik;
-    boolean menikah;
+    private String nama;
+    private boolean jenisKelamin;
+    private String nik;
+    private boolean menikah;
 }
