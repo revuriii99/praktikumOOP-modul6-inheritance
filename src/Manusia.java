@@ -20,10 +20,19 @@ public class Manusia {
     }
 
     public double getPendapatan(){
-
+        return getTunjangan();
     }
 
     public String toString(){
-        return "Nama: " + nama + "\nNIK: " + nik + "\nJenis Kelamin" + jenisKelamin +
+        return "Nama: " + nama + "\nNIK: " + nik + "\nJenis Kelamin" + (jenisKelamin ? "Pria" : "Wanita") + "\npendapatan: " + getPendapatan();
     }
+
+    public void setNama(String nama) { this.nama = nama; }
+    public String getNama() { return nama; }
+    public void setJenisKelamin(boolean jk) { this.jenisKelamin = jk; }
+    public boolean isJenisKelamin() { return jenisKelamin; }
+    public void setNik(String nik) { this.nik = nik; }
+    public String getNik() { return nik; }
+    public void setMenikah(boolean menikah) { this.menikah = menikah; }
+    public boolean isMenikah() { return menikah; }
 }
